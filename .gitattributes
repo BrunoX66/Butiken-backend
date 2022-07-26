@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Apply override to all files in the directory
+PHPMailer/** linguist-vendored
