@@ -1,0 +1,6 @@
+       TIME         |         Username        |               Email               |           REMOTE IP
+
+2021-03-21 19:40:39 | test | test@test.test | 127.0.0.1 (hostname) 
+
+2021-03-22 20:26:21 | test | test@test.test | 127.0.0.1 (hostname) 
+

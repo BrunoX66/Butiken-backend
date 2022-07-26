@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Reset password - Butiken</title>
+  </head>
+  <body>
+    <a href="login.php">Return to login page</a>
+    <h1>Reset your password</h1>
+    <form method="post" action="reset.php">
+      <p>* required field</p>
+      <p>
+        <input type="email" name="email" placeholder="Email" autofocus />
+        <span>* ---email_error---</span>
+      </p>
+      <p>
+        <i>---reset_status---</i>
+      </p>
+      <p>
+        <input type="submit" name="submit" value="Email me a new password" />
+      </p>
+    </form>
+  </body>
+</html>

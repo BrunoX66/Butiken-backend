@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cart - Butiken</title>
+  </head>
+  <body>
+    <a href="index.php">Return to Butiken</a>
+    <h1>Shopping cart</h1>
+    <h2>---cart_status---</h2>
+    <form method="post" action="cart.php">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Art.no.</th>
+          <th>SEK Price/unit</th>
+          <th>Quantity</th>
+          <th>Remove item</th>
+        </tr>
+        <!--===product===-->
+        <tr>
+          <td>---product_name---</td>
+          <td>---product_id---</td>
+          <td>---product_price---</td>
+          <td>x---product_quantity---</td>
+          <td><a href="---remove_item_script---">---remove_item_text---</a></td>
+        </tr>
+        <!--===product===-->
+        <tr>
+          <th colspan="2">Total cost:</th>
+          <td>---total_price---</td>
+          <td>SEK</td>
+          <td></td>
+        </tr>
+      </table>
+      <br />
+      <input type="submit" name="submit" value="Go to checkout" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign in - Butiken</title>
+  </head>
+  <body>
+    <a href="index.php">Return to Butiken</a>
+    <h1>Sign in</h1>
+    <form method="post" action="login.php">
+      <p>
+        <input
+          type="email"
+          name="email"
+          value="---email_value---"
+          placeholder="Email"
+        />
+        <span>---email_error---</span>
+      </p>
+      <p>
+        <input type="password" name="password" placeholder="Password" />
+        <span>---password_error---</span>
+      </p>
+      <p>
+        <i>---login_error---</i>
+      </p>
+      <p>
+        <a href="reset.php">Forgot password?</a>
+      </p>
+      <p>
+        <label>Remember me</label>
+        <input type="checkbox" name="remember" value="true" />
+      </p>
+      <p>
+        <input type="submit" name="submit" value="Sign In" />
+        <strong>or</strong>
+        <a href="register.php">Sign Up</a>
+      </p>
+    </form>
+  </body>
+</html>

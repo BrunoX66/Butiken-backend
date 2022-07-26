@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact us - Butiken</title>
+  </head>
+  <body>
+    <a href="index.php">Return to Butiken</a>
+    <h1>Contact us</h1>
+    <p>
+      <i>---submit_status---</i>
+    </p>
+    <form method="post" enctype="multipart/form-data" action="contact.php">
+      <p>* required field</p>
+      <p>
+        <input
+          type="text"
+          name="name"
+          value="---name_value---"
+          placeholder="Name"
+          autofocus
+        />
+      </p>
+      <p>
+        <input
+          type="email"
+          name="email"
+          value="---email_value---"
+          placeholder="Email"
+        />
+        <span>* ---email_error---</span>
+      </p>
+      <p>
+        <select name="subject">
+          <option value="" selected disabled>Choose subject</option>
+          <option value="Question">Question</option>
+          <option value="Suggestion">Suggestion</option>
+          <option value="Report">Report</option>
+        </select>
+        <span>* ---subject_error---</span>
+      </p>
+      <p>
+        <textarea name="message" rows="10" cols="25" placeholder="Message">
+---message_value---</textarea
+        >
+        <span>* ---message_error---</span>
+      </p>
+      <p>
+        <input type="file" name="file" />
+      </p>
+      <p>
+        <input type="submit" name="submit" value="Submit" />
+      </p>
+    </form>
+  </body>
+</html>

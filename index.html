@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Butiken</title>
+  </head>
+  <body>
+    <h1>Welcome to Butiken---username---</h1>
+    <p><b>Account: </b>---email---</p>
+    <nav>
+      <a href="cart.php">Shopping cart</a>
+      <a href="---sign_in_out_page---">---sign_in_out_status---</a>
+    </nav>
+    <main>
+      <h2>Products</h2>
+      <!--===product===-->
+      <section>
+        <form method="get" action="index.php">
+          <input type="hidden" name="productId" value="---product_id---" />
+          <h3>Product: ---product_name---</h3>
+          <i>Article number: ---product_id---</i>
+          <h4>Price: ---product_price--- SEK</h4>
+          <label>Quantity:</label>
+          <input type="number" name="quantity" value="1" min="1" max="99" />
+          <p>---product_desc---</p>
+          <input type="submit" value="Add to cart" />
+        </form>
+        <hr />
+      </section>
+      <!--===product===-->
+    </main>
+    <footer>
+      <a href="contact.php">Contact us</a>
+    </footer>
+  </body>
+</html>

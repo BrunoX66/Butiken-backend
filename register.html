@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign up - Butiken</title>
+  </head>
+  <body>
+    <a href="login.php">Return to login page</a>
+    <h1>Register an account</h1>
+    <form method="post" action="register.php">
+      <p>* required field</p>
+      <p>
+        <input
+          type="email"
+          name="email"
+          value="---email_value---"
+          placeholder="Email"
+        />
+        <span>* ---email_error---</span>
+      </p>
+      <p>
+        <input
+          type="text"
+          name="username"
+          value="---username_value---"
+          placeholder="Username"
+        />
+        <span>* ---username_error---</span>
+      </p>
+      <p>
+        <input type="password" name="password" placeholder="Password" />
+        <span>* ---password_error---</span>
+      </p>
+      <p>
+        <img src="captcha.php" alt="CAPTCHA" />
+      </p>
+      <p>
+        <input type="text" name="captcha" placeholder="CAPTCHA" />
+        <span>* ---captcha_error---</span>
+      </p>
+      <p>
+        <input type="submit" name="submit" value="Sign Up" />
+      </p>
+    </form>
+  </body>
+</html>
